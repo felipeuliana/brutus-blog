@@ -48,7 +48,7 @@
     "build": "gatsby build",
     "build-storybook": "build-storybook",
     "clean": "gatsby clean",
-    "develop": "gatsby develop",
+    "develop": "yarn clean && GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier-standard --changed --lint --format",
     "serve": "gatsby serve",
     "start": "npm run develop",
