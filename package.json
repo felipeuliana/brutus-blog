@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "brutus-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My blog about web development.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Felipe Uliana a.k.a. 'Brutus' <v.uliana@gmail.com>",
   "dependencies": {
     "gatsby": "^3.0.0",
     "gatsby-plugin-gatsby-cloud": "^2.0.0",
