@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    'jest/globals': true
+    jest: true
   },
   extends: ['plugin:react/recommended', 'standard'],
   parserOptions: {
@@ -14,5 +14,11 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react'],
-  rules: {}
+  root: true,
+  rules: {},
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  }
 }
