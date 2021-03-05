@@ -17,7 +17,8 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
@@ -38,6 +39,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "lint-staged": ">=10",
+    "plop": "^2.7.4",
     "prettier-standard": "^16.4.1"
   },
   "keywords": [
@@ -50,6 +52,7 @@
     "clean": "gatsby clean",
     "develop": "yarn clean && GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier-standard --changed --lint --format",
+    "generate": "yarn plop --plopfile generators/plopfile.js",
     "serve": "gatsby serve",
     "start": "npm run develop",
     "storybook": "start-storybook -p 6006",
